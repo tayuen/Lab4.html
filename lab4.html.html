@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+
+    <meta charset="utf-8">
+    <title>Volunteer Form</title>
+
+</head> 
+
+<body>
+  <h1> Volunteer Form </h1>
+
+
+<form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="POST">
+<fieldset>
+<h2>My Info</h2>
+<p> <label for="firstname">First Name:</label>
+<input type="text" name="Fname" id="firstname" > </p>
+
+<p><label for="middletname">Middle Name:</label> 
+<input type="text" name="Mname" id="Middlename"> </p>
+
+<p><label for="lastname">Last Name:</label> 
+<input type="text" name="Lname" id="lastname"> </p>
+
+<p> <label for="homenumber">Home Number:</label>
+<input type="text" name="Homenum" id="homenumber"> </p>
+
+<p> <label for="cellnumber">Cell Number:</label>
+<input type="text" name="Cellnum" id="cellnumber"> </p>
+
+<p> <label for="ema">Email:</label> 
+<input type="text" name="email" id="ema"> </p>
+
+<p>
+    <label> <input type="radio" name="gender_field" value="female">Female</label>
+    <label> <input type="radio" name="gender_field" value="male">Male</label>
+ </p>
+ 
+
+<p>
+Age:
+<select class="browser-style" name="select_age">
+
+  <option value="default">Please Choose an Age Range</option>
+  <option value="under21">Under 21</option>
+  <option value="21to30">21-30</option>
+  <option value="31to40">31-40</option>
+  <option value="41to50">41-50</option>
+  <option value="51to60">51-60</option>
+  <option value="61to70">61-70</option>
+  <option value="71plus">71 and over</option>
+  
+</select>
+</p>
+    </fieldset>
+<h2> My Availability </h2>
+<fieldset>
+<label>Days Available:</label>
+ 
+ <p> <input type="checkbox" name="variable" value="thevalue"> Sunday</p>
+ <p><input type="checkbox" name="variable" value="thevalue"> Monday</p>
+ <p><input type="checkbox" name="variable" value="thevalue"> Tuesday</p>
+ <p><input type="checkbox" name="variable" value="thevalue"> Wednesday</p>
+ <p><input type="checkbox" name="variable" value="thevalue"> Thursday</p>
+ <p><input type="checkbox" name="variable" value="thevalue"> Friday</p>
+ <p><input type="checkbox" name="variable" value="thevalue"> Saturday</p>
+
+<p>Sign here</p>
+<textarea name="signature" ></textarea>
+<p><button type="submit">Submit</button></p>
+</fieldset>
+
+</form>
+</body> 
+
+
+</html>
